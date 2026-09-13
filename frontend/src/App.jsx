@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:8000/api";
+const API = "https://shipping-project-a3hh.onrender.com/api";
 const SHIPMENT_MODES = ["Ship", "Flight", "Road"];
 
 const DEFAULT_FORM = {
